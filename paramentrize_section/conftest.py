@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 import math
-@pytest.fixture(scope="function")
+@pytest.fixture(scope="class")
 def browser():
     print("\nstart browser for test..")
     browser_instance = webdriver.Chrome()
