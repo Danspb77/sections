@@ -1,0 +1,8 @@
+[516065:516065:1013/184855.089906:WARNING:chrome_main_delegate.cc(593)] This is Chrome version 114.0.5735.133 (not a warning)
+[516065:516065:1013/184855.353480:INFO:chrome_browser_cloud_management_controller.cc(167)] Starting CBCM Controller Initialization
+[516065:516065:1013/184855.353572:INFO:chrome_browser_cloud_management_controller.cc(195)] No machine level policy manager exists.
+[516110:516110:1013/184855.465331:WARNING:sandbox_linux.cc(393)] InitializeSandbox() called with multiple threads in process gpu-process.
+[516110:516110:1013/184855.471111:WARNING:gpu_memory_buffer_support_x11.cc(49)] dri3 extension not supported.
+[516065:516065:1013/184855.521389:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[516151:8:1013/184855.628396:ERROR:command_buffer_proxy_impl.cc(128)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
+[516065:516065:1013/184859.426132:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
