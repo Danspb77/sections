@@ -19,7 +19,7 @@ class BasketPage(BasePage):
 
         product_name=self.browser.find_element(*BasketPageLocators.PRODUCT_NAME).text
 
-        assert product_name in successful_message, "Successful massage isn't provided"
+        assert product_name == successful_message, "Successful massage isn't provided"
 
     def compare_product_cost_and_total_basket(self):
         assert self.browser.find_element(*BasketPageLocators.BASKET_TOTAL), "message about successful basket total"

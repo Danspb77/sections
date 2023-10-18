@@ -5,7 +5,7 @@ class BasketPageLocators():
     
     BUTTON= (By.CSS_SELECTOR,"button.btn-lg:nth-child(3)")
     PRODUCT_NAME= (By.CSS_SELECTOR,"div.product_main h1")
-    SUCCESSFUL_MESSAGE=(By.CSS_SELECTOR,"div.alertinner")
+    SUCCESSFUL_MESSAGE=(By.CSS_SELECTOR,"div.alertinner strong")
 
     BASKET_TOTAL=(By.CSS_SELECTOR,"div.alert:nth-child(3) > div:nth-child(2) > p:nth-child(1)")
 
