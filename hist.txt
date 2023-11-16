@@ -1,0 +1,999 @@
+  676  cd sshd_config
+  677  sudo nano sshd_config
+  679  cd /etc/network/interfaces
+  680  cd /etc/network
+  682  sudo nano interfaces
+  683  ping  ya.ru
+  684  ip a show esp0s3
+  685  ip -a
+  687  ping 192.168.56.10.
+  688  ping 192.168.56.10
+  689  ps ax / grep nginx
+  690  ps ax | grep nginx
+  691  locate nginx.conf
+  698  cd Lab6
+  700  mv l6.py ~/Documents/education/laby
+  704  mkdir var
+  706  mkdir www
+  708  mkdir /var/images
+  712  cd /etc
+  715  ls | grep var
+  717  cd var
+  721  mkdir images
+  722  sudo mkdir images
+  723  cd /Documents/education
+  724  cd ~Documents/education
+  728  cd laby
+  730  cd images
+  732  mv 12419_2005.jpg pict.jpg
+  734  mv pict.jpg /var/images
+  735  sudo mv pict.jpg /var/images 
+  736  sudo mv 13419_2005.jpg /var/images 
+  737  cd /var
+  738  cd www
+  739  touch index.html
+  740  sudo touch index.html
+  742  cd html
+  744  sudo nano /etc/nginx/nginx.conf
+  745  ssh bandit6@bandit.labs.overthewire.org -p 2220
+  746  ssh bandit7@bandit.labs.overthewire.org -p 2220
+  747  ssh bandit8@bandit.labs.overthewire.org -p 2220
+  748  ssh bandit9@bandit.labs.overthewire.org -p 2220
+  751  ssh bandit10@bandit.labs.overthewire.org -p 2220
+  752  ssh bandit11@bandit.labs.overthewire.org -p 2220
+  753  ssh bandit12@bandit.labs.overthewire.org -p 2220
+  754  ssh bandit13@bandit.labs.overthewire.org -p 2220
+  755  stop telegram
+  757  kill 3240100
+  758  kill 415732
+  759  kill 686779
+  761  pwd -l
+  767  cd Music
+  768  dirs -l
+  769  dirs 
+  780  mkdir /i
+  781  sudo mkdir /i
+  789  rm -r i
+  790  sudo rm -r i
+  794  dir -p
+  808  mkdir test
+  810  mkdir -p  /~/dir1/dir2/dir3
+  816  tree | grep dir*
+  817  tree | grep dir1
+  822  sudo rm -r dir1
+  825  sudo mkdir -p  ~/dir1/dir2/dir3
+  829  sudo mkdir -p  /~/dir1/dir2/dir3
+  833  sudo mkdir -p dir2/dir4/dir5
+  843  sudo mkdir -p dir1/dir2/dir4/dir5
+  844  cd dir1
+  846  cd dir2
+  848  cd dir3
+  850  cd dir4
+  854  rm -rf dir1
+  855  sudo rm -rf dir1
+  857  sudo rm -rf dir2
+  858  sudo touch fil1.txt file2.txt ~
+  860  sudo mkdir default
+  861  cp -r  /etc/default ~/default
+  862  sudo cp -r  /etc/default ~/default
+  867  sudo mkdir newdir
+  868  sudo cp -r ~/default/rsyslog ~/newdir
+  869  sudo cp -r ~/default/ssh ~/newdir
+  870  cd de
+  871  cd default
+  873  sudo cp -r ~/default/default/ssh ~/newdir
+  874  sudo cp -r ~/default/default/rsyslog ~/newdir
+  879  sudo cp -r ~/default/default/intel-microcode /
+  886  sudo rm -rf intel-microcode
+  890  sudo cp ~/default/default/intel-microcode ~/newdir
+  891  cd newdir
+  895  sudo rm -rf default
+  897  sudo rm -rf newdir
+  899  sudo rm fil1.txt file2.txt
+  901  cd /etc/resolvconf/resolv.conf.d
+  902  cd /etc/resolvconf/
+  903  cd /etc/resolvconf
+  904  cd /
+  905  cd etc
+  907  ls -lg | grep resolv
+  910  cat text.txt tot.txt
+  911  cat text.txt
+  912  cat tot.txt
+  913  nano tot.txt
+  914  cat tot.txt text.txt
+  915  cat tot.txt text.txt > resolv.txt
+  917  cat resolv.txt
+  918  rm resolv.txt
+  920  cat ~/Documents/tot.txt ~/Documents/text.txt > ~/Documents/resolv.txt
+  921  cat ~/Documents/resolv.txt
+  922  # which cat cd pwd
+  924  which cd
+  925  which cat
+  926  alias c='clear'
+  927  alias c
+  928  which c
+  929  unalias c
+  930  which clear
+  931  type pwd
+  932  which pwd
+  933  type cat
+  934  alias ls -lh ='lh'
+  935  alias "ls -lh" ='lh'
+  936  alias 'ls -lh' ='lh'
+  937  alias lh='ls -lh'
+  938  lh
+  939  echo alias\necho\nrm\nroute\ntac\nwhich
+  940  type alias
+  942  type rm
+  944  type echo
+  945  type route
+  946  type tac
+  948  type type
+  949  type which
+  950  which alias
+  951  which route
+  952  which rm
+  953  which tac
+  954  echo \#    \$
+  955  echo \# \\\\   \$
+  956  echo asdjcb\\ndjwcn\\nsjdcn
+  957  cd Do
+  960  rm tot.txt && echo success || echo no success
+  961  echo $HOSTNAME
+  962  echo $UID
+  963  echo $HOME
+  964  city=SPB
+  965  echo city
+  966  echo $city
+  967  echo we are in $city
+  968  echo 'we are in $city'
+  970  set | more
+  971  set | grep city
+  972  set | grep LANG
+  973  mvar='Hello world'
+  974  echo $mvar
+  975  export $mvar
+  976  export mvar
+  977  testvar=555
+  978  unset testvar
+  979  cd -
+  980  cd .
+  982  cd ~/environment
+  983  touch environment
+  984  mvar > environment
+  985  echo $mvar > environment
+  987  env > ~/environment
+  990  free -h
+  993  echo $HISTFILE
+  994  echo $HISTFILESIZE
+  995  env | grep HIST
+  996  env
+  997  set | grep HIST
+ 1000  ls -h
+ 1002  cat 27
+ 1003  cat 30
+ 1004  cat 27]
+ 1005  rm 27 27] 30
+ 1007  touch to te ta
+ 1009  mv to tot
+ 1011  ls t[a-z]
+ 1012  ls [a-c]
+ 1013  ls t[a-c]
+ 1014  ls t[a-e]*
+ 1015  touch an1.txt an2.txt an3.txt
+ 1018  cat an1.txt
+ 1020  pwd > an2.txt
+ 1022  ls an* >>an2.txt
+ 1024  read va
+ 1025  echo $va
+ 1026  -
+ 1027  $-
+ 1029  set
+ 1031  set | grep 3569JXZghikms
+ 1033  cat an2.txt
+ 1035  sed 's/an/na/g' an2.txt
+ 1036  nano an2.txt
+ 1037  /bin/python /home/kali/Documents/programming/first.py
+ 1038  /bin/python /home/kali/Documents/programming/hello.py
+ 1039  ls Documents
+ 1040  cd Кик
+ 1041  cat Шурыгин2.pdf
+ 1042  echo $-
+ 1043  sudo apt -get  install --reinstall python-pkg-resourses 
+ 1044  sudo apt-get  install --reinstall python-pkg-resourses 
+ 1045  python
+ 1046  sudo apt-get istall build-essential python-dev
+ 1047  sudo apt-get install build-essential python-dev
+ 1048  wget  https://github.com/pyinstaller/pyinst...
+ 1049  wget https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbll4eTBUdjlZOWFJZWc3cXdzYURncUJ1Wkx4QXxBQ3Jtc0ttcTY5V0trSWNNV3R0d1l4STZyblZmWVdXMFB5WjRHVFphNTNLN2xDbmFmdXpWcERoMk9jRHNvSzdkdl9CRFVTbk5qQ1gtNGlvTjA4SGFYdXJwVGhFQUFXT0dpSVNXMVd0RktfTjQ5N0hlNmp6UjFMVQ&q=https%3A%2F%2Fgithub.com%2Fpyinstaller%2Fpyinstaller%2Freleases%2Fdownload%2Fv3.2%2FPyInstaller-3.2.tar.gz&v=fQnx3nsE29Y
+ 1050  pip install pyinstaller
+ 1051  cd /usr/lib/python3
+ 1052  cd dist-packages
+ 1053  ls | grep installer
+ 1054  ls | grep in
+ 1055  pyintaller --version
+ 1056  pyinstaller --version
+ 1058  python first.py
+ 1059  pyinstaller first.py
+ 1060  chmod +x first.py
+ 1062  cd dist
+ 1064  rm -rf build dist first.spec
+ 1065  nano first.py
+ 1066  pyinstaller --onefile first.py
+ 1068  file first.spec
+ 1069  cd build/first
+ 1070  tr
+ 1071  ./first.py
+ 1072  file first.py
+ 1073  cat first.spec
+ 1074  ./first.spec
+ 1075  sudo ./first.spec
+ 1077  unzip v5.9.0.zip
+ 1078  ./pyinstaller.py setup.py
+ 1079  cd pyinstaller-pyinstaller-7702248
+ 1080  python3 pyinstaller.py setup.py
+ 1081  cd PyInstaller
+ 1082  tree | grep pyintsaller
+ 1083  sudo install gi
+ 1084  sudo install git
+ 1085  sudo apt install git
+ 1086  git --version
+ 1087  git config --global user.name "Danya"
+ 1088  git config --global user.email "dan.shell@bk.ru"
+ 1089  git config
+ 1090  cd 
+ 1091  mkdir git
+ 1092  git init
+ 1093  touch app.py
+ 1094  git commit -m "initial comment"
+ 1095  git show 04717d28702a0e0b1185c0081b32be00be53b765
+ 1096  git restore app.py
+ 1097  git difff
+ 1098  git add app.py
+ 1099  git commit -m "Refactoring"
+ 1100  featherpad app.py
+ 1101  cat app.py
+ 1102  git commit -am "Refactoring"
+ 1103  git mv  app.py application.py
+ 1104  git restore --stage application.py
+ 1105  git restore aplication.py
+ 1106  git restore application.py
+ 1107  git restore application.py\n
+ 1108  git rm --cached application.py
+ 1110  git rm application.py
+ 1111  git rm app.py
+ 1112  cat application.py
+ 1113  history | grep size
+ 1114  history | grep SIZE
+ 1115  echo $HISTSIZE
+ 1116  history | tail 50
+ 1117  history | tail 
+ 1118  git  mv applic.py rem.py
+ 1119  git rm --cached applic.py
+ 1120  git restore
+ 1121  history | tail -50
+ 1122  history | tail -70
+ 1123  git commit -am "can't delete files"
+ 1124  git commit -am "can't delete files2"
+ 1126  featherpad applic.py
+ 1127  git show e775181061e525809404802879585e82cb203b2d
+ 1128  git show 56391ea533512fae6ba92500243ff038566b256d
+ 1129  mkdir log
+ 1130  cd log
+ 1131  touch log.txt
+ 1132  git ..
+ 1133  git featherpad .gitignore
+ 1134  git commit -m "Add gitignore"
+ 1135  rm docker.yaml
+ 1136  touch docker.yaml
+ 1137  git show 1f7b066096de437c8470e4cf93bba60758520a12
+ 1139  $var
+ 1140  kill 171800
+ 1141  kill 2362
+ 1142  ps aux | grep telegram
+ 1143  sudo apt install google-chrome
+ 1146  echo for 1 file > file1.txt
+ 1147  echo for 2 file > file2.txt
+ 1148  git add file1.txt file2.txt
+ 1149  git commit -m "Add 2 file.txt"
+ 1150  git add docker.yaml
+ 1151  git rm docker.yaml
+ 1152  git rm -f docker.yaml
+ 1153  cat c,
+ 1154  featherpad c,
+ 1155  git log -2
+ 1156  git show c5de
+ 1157  git add file1.txt 
+ 1158  git commit -m "Changed file1.txt"
+ 1159  git log -1
+ 1160  git show 89
+ 1161  git show 89def
+ 1162  featherpad file2.txt
+ 1163  git checkout -- file2.txt
+ 1164  echo for 222 file >> file2.txt
+ 1165  cat file2.txt
+ 1166  git add file2.txt
+ 1167  echo ignore this > log/igno.log
+ 1168  ll log/
+ 1169  cat .gitignore
+ 1170  git show
+ 1171  ls /log
+ 1172  cat ./log
+ 1173  cat ./log/igno.log
+ 1174  featherpad file1.txt
+ 1175  git add file1.txt
+ 1176  git commit -m "Changed file1.txt and add gitignore"
+ 1177  git checkout -- file1
+ 1178  echo kdfvdofvnno >> file1.txt
+ 1179  git checkout -- file1.txt
+ 1180  git add applic.py
+ 1181  cat applic
+ 1182  cat applic.py
+ 1183  git rm applic.py
+ 1184  git rm -f applic.py
+ 1185  git st
+ 1186  git commit -m "delete applic.py"
+ 1187  git commit -m "add log to ignore"
+ 1188  echo loooooooooooooog > ./log/olllo.txt
+ 1189  ls ./log
+ 1190  ll
+ 1191  ll -a
+ 1192  mkdir abra
+ 1193  cp ./log/olllo.txt ./abra
+ 1194  featherpad .gitignore
+ 1195  git add .gitignore
+ 1197  git clone https://github.com/Danspb77/mysuperproject1.git
+ 1198  ls ./mysuperproject1
+ 1199  echo fro super1! ! ! > super1.txt
+ 1200  featherpad README.md
+ 1201  git push super1.txt
+ 1202  git commit -m "add super1"
+ 1203  git push .
+ 1204  featherpad super1.txt
+ 1205  git add super1.txt
+ 1206  ssh -keygen 
+ 1207  ssh -keygen
+ 1208  ssh-keygen
+ 1209  cat ~/.ssh/id_rsa.pub
+ 1210  ll ~/.ssh/
+ 1211  git remote set-url origin git@github.com:Danspb77/mysuperproject1.git
+ 1212  git init app_with_branch
+ 1213  cd app_with_branch
+ 1214  echo ver1 > version1,0.txt
+ 1215  git commit -m "First version 1,0"
+ 1216  echo ver2 > version1,0.txt
+ 1217  mv version1,0.txt index.html
+ 1218  git commit -m "Second version index.html"
+ 1219  git log -1 -p
+ 1220  echo ver3 > index.html
+ 1221  git commit -m "Third version index.html"
+ 1222  git branch fix
+ 1223  git branch  -d fix
+ 1224  git checkout -b fix_error
+ 1225  echo ver4 > index.html
+ 1226  git commit -m "Fourth version index.html"
+ 1227  git merge fix_error
+ 1228  git log  -p -1
+ 1229  git branch -d fix_error
+ 1230  git checkout -b add_version
+ 1231  echo ver4.1 > index.html
+ 1232  git commit -m "Fourth.1 in branch add_version version index.html"
+ 1233  echo ver4.2 > index.html
+ 1234  git commit -m "Fourth.2 in branch add_version version index.html"
+ 1235  git log  -p -3
+ 1236  git log  -p -4
+ 1237  git merge add_version
+ 1238  git branch -d add_version
+ 1240  cat index.html
+ 1241  git init app_with_tags
+ 1242  cd app_with_tags
+ 1243  touch file1.txt file2.txt
+ 1244  git commit -m "add file1 and file2"
+ 1245  git remote set-url origin git@github.com:Danspb77/app_with_tags.git
+ 1246  git remote add origin git@github.com:Danspb77/app_with_tags.git
+ 1247  git remore -v
+ 1248  cat file1.txt
+ 1249  history | tail -90 | grep tag
+ 1250  git tad v1.0.0
+ 1251  git tag v1.0.0
+ 1252  git push origin v1.0.0
+ 1253  touch file3.txt
+ 1254  git commit -m "add file3"
+ 1255  git push
+ 1256  git tag v1.0.1
+ 1257  git push origin v1.0.1
+ 1258  git checkout -b fixing
+ 1259  nano fix.pu
+ 1260  cat fix.pu
+ 1261  mv fix.pu fix.py
+ 1262  git commit -m "fix files"
+ 1263  git tag v1.1.0
+ 1265  git push origin v1.1.0
+ 1266  git push fixing
+ 1267  git push origin fixing
+ 1268  git tag -d v1.1.0
+ 1269  git push origin --delete v1.1.0
+ 1270  git branch
+ 1271  git branch -D fixing
+ 1272  git pull
+ 1273  git tag v1.2.0
+ 1274  git push origin v1.2.0
+ 1275  git checkout v1.0.0
+ 1276  git checkout main
+ 1277  git checkout master
+ 1278  git touch file777.txt
+ 1279  touch file777.txt
+ 1280  git commit -m "add lucky file"
+ 1281  git push 
+ 1282  git tag v2.0.0
+ 1283  git tag
+ 1284  git push origin --tags
+ 1285  open telegram
+ 1286  git simp_py_lessons
+ 1287  git init simp_py_less
+ 1288  git remote set-url origin git@github.com:Danspb77/working_with-inthernet_PY.git
+ 1289  mv simple_python_lessons.py ./simp_py_less
+ 1290  cd simp_py_less
+ 1291  git commit -m "add add enthernet file"
+ 1292  git remote add origin git@github.com:Danspb77/working_with-inthernet_PY.git
+ 1293  git remote push
+ 1294  git remote push origin
+ 1296  mv simple_python_lessons.py enthernet.py
+ 1297  git commit -m "add snowfall"
+ 1300  tree | grep built
+ 1301  cd build
+ 1302  cd first
+ 1303  cd //
+ 1304  cd home
+ 1306  cd kali
+ 1309  cat environment
+ 1313  cd git
+ 1315  cd mysuperproject1
+ 1317  touch file7.txt
+ 1319  git commit -m "add file7"
+ 1324  git push -f
+ 1330  git commit --amend
+ 1332  git diff --staged
+ 1333  git diff
+ 1334  git push -f origin
+ 1341  mkdir difficult_py_lessons
+ 1343  rmdir difficult_py_lessons
+ 1345  git init difficult_py_lessons
+ 1347  touch recursion.py
+ 1356  git remote add origin git@github.com:Danspb77/difficult_py_lessons.git
+ 1362  git commit -m "add lesson about recursion"
+ 1364  git push --set-upstream origin master\n
+ 1368  git pull main
+ 1371  git clone git 
+ 1372  git clone  git@github.com:Danspb77/difficult_py_lessons.git
+ 1382  mv recursion.py ./difficult_py_lessons
+ 1387  git commit -m "add recursion"
+ 1392  cd difficult_py_lessons_local difficult_py_lessons
+ 1394  mv difficult_py_lessons_local difficult_py_lessons
+ 1397  mv difficult_py_lessons difficult_py_lessons_local
+ 1399  mv ./difficult_py_lessons_local/difficult_py_lessons ./
+ 1400  rmdir -f difficult_py_lessons_local
+ 1401  rmdir  difficult_py_lessons_local
+ 1402  rm -r difficult_py_lessons_local
+ 1403  y
+ 1412  cd programming
+ 1414  cd difficult_py_lessons
+ 1417  git pull origin
+ 1418  git ls
+ 1420  touch cleaning_folders.py
+ 1430  ls ./ba
+ 1431  ls ./bashfolder
+ 1432  ls ./education
+ 1433  ls ./te
+ 1434  ls ./test
+ 1436  tree | grep test
+ 1438  tree | grep .jpg
+ 1439  mkdir rubbish
+ 1442  cd Downloads
+ 1444  cp ./Telegram\ Desktop ~/Documents/rubbish
+ 1445  cp -r ./Telegram\ Desktop ~/Documents/rubbish
+ 1446  ls ~/Documents/rubbish
+ 1447  /bin/python /home/kali/Documents/first_telegram_bot/main.py
+ 1450  git init automatization
+ 1455  touch balls-8.py
+ 1457  ^[[200~git remote add origin git@github.com:Danspb77/automatization.git~
+ 1458  git remote add origin git remote add origin git@github.com:Danspb77/automatization.git
+ 1460  git remote add origin git@github.com:Danspb77/automatization.git\n
+ 1461  git remote -v
+ 1462  touch birthdays.txt
+ 1463  feattherpad birthdays.txt
+ 1464  featherpad birthdays.txt
+ 1465  cat birthdays.txt
+ 1469  mv balls-8.py birthday_reminder.py
+ 1474  rm balls-8.py
+ 1476  cat birthday_reminder.py
+ 1477  mkdir birthday_reminder
+ 1479  mv . ./birthday_reminder
+ 1480  mv * ./birthday_reminder
+ 1491  git commit -m "split input into dictionary"
+ 1493  git push --set-upstream origin master
+ 1495  git checkout -b printingBirthMessageUgly
+ 1496  git commit -m "rintingBirthMessage with ugly strings, without comments"
+ 1499  git push --set-upstream origin printingBirthMessageUgly
+ 1501  git push printingBirthMessageUgly
+ 1502  git push --set-upstream origin printingBirthMessageUgly\n
+ 1505  tree | grep demon
+ 1506  tree | grep .sh
+ 1507  find eye.sh
+ 1508  find / -name eye.sh -f
+ 1509  find / -name eye.sh -type f
+ 1510  find ~ -name eye.sh -type f
+ 1511  find ~ -name eye.sh -type f | cd 
+ 1512  cd | find ~ -name eye.sh -type f
+ 1513  cd /home/kali/Documents/education/laby/eye.sh\n
+ 1514  cd /home/kali/Documents/education/laby/\n
+ 1515  featherpad ey
+ 1517  bash eye.sh 0.1
+ 1518  bash eye.sh 0,1
+ 1519  cd /home/kali/Documents/education/laby/images
+ 1520  feh ~/11418_2005.jpg
+ 1521  feh 11418_2005.jpg
+ 1522  feh /home/kali/Documents/education/laby/images/13419_2005.jpg
+ 1523  feh 13419_2005.jpg\n
+ 1526  featherpad eye.sh
+ 1527  bash eye.sh 1
+ 1528  cat stop.sh
+ 1531  mkdir HOD
+ 1532  touch hod.db
+ 1533  mv hod.db ./HOD
+ 1537  sudo apt-get install sqlite3 libsqlite3-dev
+ 1538  sqllite.connect(hod.db)
+ 1539  sqllite3.connect(hod.db)
+ 1540  sqllite3 hod2.db
+ 1541  sqlite3 hod2.db
+ 1544  sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'\nwget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -\nsudo apt-get update\nsudo apt-get -y install postgresql\n
+ 1545  ^[[200~sudo curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add
+ 1546  sudo curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add
+ 1547  sudo sh -c ‘echo “deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/bullseye/ pgadmin4 main” > /etc/apt/sources.list.d/pgadmin4.list && apt update’
+ 1548  sudo sudo sh -c ‘echo “deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/bullseye/ pgadmin4 main” > /etc/apt/sources.list.d/pgadmin4.list && apt update’
+ 1550  Install the public key for the repository (if not done previously):\ncurl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg
+ 1551  curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg\n
+ 1552  sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
+ 1554  sudo apt install pgadmin4-desktop
+ 1555  sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/focal/ pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'\n
+ 1559  /bin/python /home/kali/Documents/education/HOD/fill_bd.py
+ 1562  cd HOD
+ 1564  mkdir filling_scripts
+ 1565  mv fill_bd.py ./filling_scripts films.py
+ 1566  mv fill_bd.py ./filling_scripts 
+ 1567  mv fill_bd.py film.py
+ 1569  rm fill_bd.py
+ 1570  cd filling_scripts
+ 1572  mv film.py movies.py
+ 1574  users
+ 1575  ipconfig
+ 1576  ifconfig
+ 1578  psql start
+ 1579  history | tail -90
+ 1580  history | tail -90 | grep psql
+ 1587  gcc prog.cpp -o obj.1
+ 1591  gcc -c *
+ 1592  gcc -c  DecStr.cpp
+ 1593  gcc * -o rez
+ 1594  g++ prog.cpp decstr.cpp identstr.cpp stroka.cpp -o main
+ 1596  ls-l
+ 1600  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main1
+ 1603  kill 7818
+ 1604  kill 6228
+ 1605  kill 2260
+ 1606  killall VScode
+ 1607  ps aux | grep VScode
+ 1608  kill 8407
+ 1609  ps aux
+ 1610  ps aux | grep code
+ 1614  ./main1
+ 1615  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main2
+ 1616  ./main2
+ 1617  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main3
+ 1618  ./main3
+ 1619  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main4
+ 1620  ./main4
+ 1621  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main5
+ 1622  ./main5
+ 1623  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main6
+ 1624  ./main6
+ 1625  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main7
+ 1626  ./main7
+ 1627  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main8
+ 1628  ./main8
+ 1629  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main9
+ 1630  ./main9
+ 1631  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main10
+ 1632  rm main[1-5]
+ 1634  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main11
+ 1635  ./main11
+ 1636  ./main10
+ 1637  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main12
+ 1638  ./main12
+ 1639  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main13
+ 1640  ./main13
+ 1641  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main14
+ 1642  ./main14
+ 1643  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main15
+ 1644  ./main15
+ 1645  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main16
+ 1646  ./main16
+ 1647  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main17
+ 1648  ./main17
+ 1649  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main18
+ 1650  ./main18
+ 1651  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main19
+ 1652  ./main19
+ 1653  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main20
+ 1654  ./main20
+ 1655  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main21
+ 1656  ./main21
+ 1657  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main22
+ 1658  ./main22
+ 1659  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main23
+ 1660  ./main23
+ 1661  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main24
+ 1662  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main25
+ 1663  ./main25
+ 1664  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main26
+ 1665  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main27
+ 1666  ./main27
+ 1667  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main28
+ 1668  ./main28
+ 1669  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main29
+ 1670  ./main29
+ 1671  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main30
+ 1672  ./main30
+ 1674  g++ prog.cpp DecStr.cpp IdentStr.cpp Stroka.cpp -o main
+ 1675  ./main
+ 1677  cd education
+ 1678  cd kursach
+ 1679  rm main[1-29]
+ 1680  rm main1*
+ 1681  rm main28
+ 1682  rm main2*
+ 1683  LS
+ 1684  rm main[1-9]
+ 1685  rm main30
+ 1687  mkdir RSA_encrypt
+ 1688  cd RSA_encrypt
+ 1689  sudo apt-get install {~/Downloads/DEBIAN}protonvpn-stable-release_1.0.3_all.deb\n
+ 1690  sudo apt-get install protonvpn-cli
+ 1691  ^[[200~sudo apt-get install ~/Downloads/protonvpn-stable-release_1.0.3_all.deb ~
+ 1692  sudo apt-get install ~/Downloads/code_1.73.1-1667967334_amd64.deb 
+ 1693  ^[[200~sudo apt-get install protonvpn~
+ 1696  ls- -l
+ 1698  ls -lh
+ 1699  sudo apt-get install ~/Downloads/protonvpn-stable-release_1.0.3_all.deb
+ 1700  echo "c409c819eed60985273e94e575fd5dfd8dd34baef3764fc7356b0f23e25a372c\n protonvpn-stable-release_1.0.3_all.deb" | sha256sum --check -
+ 1701  sudo apt-get install protonvpn
+ 1703  CCC cd /home/kali/Documents/education/RSA_encrypt ; /usr/bin/env /bin/python /home/kali/.vscode/extensions/ms-python.python-2022.19.13251009/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 37377 -- /home/kali/Documents/education/RSA_encrypt/rsa2.py 
+ 1709  git commit -m "adding new users, and printing current data list"
+ 1711  git checkout -b database
+ 1712  git add *db
+ 1714  git commit -m "add enpty database"
+ 1715  git log -p
+ 1719  google 
+ 1720  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+ 1721  gdebi google-chrome-stable_current_amd64.deb
+ 1722  google-chrome
+ 1723  cd ~
+ 1731  git checkout -b json
+ 1732  sudo apt-get update
+ 1733  flatpak install https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref
+ 1734  flatpak run org.gimp.GIMP//stable
+ 1737  git add *
+ 1738  git commit -m "final commit without data_base"
+ 1740  git push --set-upstream origin development\n
+ 1741  touch chats.db
+ 1742  mkdir reminder_with_database
+ 1743  ls reminder_with_database
+ 1744  touch reminder.py
+ 1746  cd birthday_reminder
+ 1747  mv chats.db ../
+ 1750  mv chats.db reminder.py ./reminder_with_database
+ 1753  git init birthday_with_DB
+ 1754  git ls -a
+ 1756  cp data.db ./birthday_with_DB
+ 1757  mv reminder.py ./birthday_with_DB
+ 1759  pwd
+ 1760  git commit -m "first commit"
+ 1761  history | grep psql
+ 1762  git commit -m "connect to database"
+ 1763  git commit -m "add text to list"
+ 1764  cd
+ 1765  sudo apt update
+ 1766  sudo apt -y install curl gnupg2 apt-transport-https software-properties-common ca-certificates  
+ 1767  sudo systemctl start docker
+ 1768  apt list --installed | grep docker\n
+ 1769  sudo apt-get purge docker-ce\nsudo apt-get autoremove\n
+ 1770  sudo systemctl enable docker\nsudo systemctl start docker\n
+ 1771  sudo apt-get install apt-transport-https ca-certificates curl software-properties-common\n
+ 1772  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"\n
+ 1773  echo "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null\n
+ 1774  sudo rm /etc/apt/sources.list.d/docker.list\n
+ 1775  curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -\n
+ 1776  echo "deb [arch=amd64] https://download.docker.com/linux/debian buster stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null\n
+ 1777  sudo apt-get update\n
+ 1778  sudo apt-get install docker-ce\n
+ 1779  sudo systemctl start docker\nsudo systemctl enable docker\n
+ 1780  sudo systemctl start docker\n
+ 1782  git clone https://github.com/ereyes01/linpack.git
+ 1783  ^[[200~cd linpack~
+ 1784  cd linpack
+ 1785  sudo docker build -t linpack ./
+ 1786  sudo docker run -it --rm linpack
+ 1787  sudo docker run -it --rm elreyes/linpack
+ 1788  sudo docker run -it --rm -e LINPACK_ARRAY_SIZE=600 elreyes/linpack
+ 1790  cd automatization
+ 1791  cd reminder_with_database
+ 1792  cd birthday_with_DB
+ 1793  git commit -m "not standart date format"
+ 1794  git commit -m "standart date format"
+ 1795  git log
+ 1796  git commit -m "working with dates in standart form"
+ 1797  git commit -m "add exceptions in add and delete functions"
+ 1801  git init hean_and_hands_kontest
+ 1802  mv test.py hean_and_hands_kontest
+ 1805  git commit -m "generate random massives"
+ 1806  aux
+ 1807  ps
+ 1808  top
+ 1809  cat test.py
+ 1813  vs_code
+ 1814  vscode
+ 1818  touch test_fixture1.py
+ 1819  pytest -s test_fixture1.py
+ 1820  pytest -s -v smoke test_fixture1.py
+ 1821  pytest  -m smoke test_fixture1.py
+ 1822  touch pytetst.ini
+ 1823  pytest -s -v -m smoke test_fixture1.py
+ 1824  pytest -s -v -m "smoke and win10" test_fixture1.py
+ 1827  cd ko
+ 1828  cd kontests
+ 1829  cd head_and_hands
+ 1830  cd hean_and_hands_kontest
+ 1832  git status
+ 1833  git add .
+ 1834  git commit -m "final with comments"
+ 1835  git branch 
+ 1836  git push origin
+ 1837  git push --set-upstream origin main\n
+ 1838  git push -f --set-upstream origin main\n
+ 1839  sudo apt-get install openssh-server
+ 1840  sudo apt install nginx
+ 1841  sudo systemctl 
+ 1842  sudo systemctl status nginx.server
+ 1843  sudo systemctl status nginx
+ 1845  sudo systemctl start nginx
+ 1846  sudo systemctl start nginx.service
+ 1847  sudo systemctl enable nginx.service
+ 1848  /bin/python /home/kali/Documents/kontests/head_and_hands/hean_and_hands_kontest/test.py
+ 1849  ls -l
+ 1850  \nunzip "chromedriver_linux64 (1).zip"
+ 1852  sudo mv chromedriver /usr/bin/\n
+ 1853  sudo chmod +x /usr/bin/chromedriver\n
+ 1855  touch xfail1.py
+ 1856  pytest test_fixture1.py
+ 1857  pytest -rX -v xfail1.py
+ 1858  cd environment
+ 1861  mkdir module1_unique_selector
+ 1862  cd module1_unique_selector
+ 1863  sudo systemctl status ngnix.service
+ 1864  sudo systemctl status nginx.service
+ 1865  cat github2
+ 1868  sudo apt-add-repository ppa:ansible/ansible
+ 1869  sudo apt update\nsudo apt install software-properties-common\n
+ 1870  sudo apt-add-repository --yes --update ppa:ansible/ansible\nsudo apt install ansible\n
+ 1871  ansible 
+ 1872  ssh-keygen -t rsa -f ~/.ssh/ans1\n
+ 1873  cd ./ssh
+ 1876  sudo systemctl start ssh\n
+ 1877  sudo systemctl enable ss
+ 1878  sudo systemctl enable ssh
+ 1879  sudo systemctl status ssh\n
+ 1880  ssh kali@localhost
+ 1881  ping localhost
+ 1883  ./hw
+ 1884  ansible localhost -m copy -a "src=~/Documents/hw dst=~/Documents/biometry/hw"
+ 1885  ansible localhost -m copy -a "src=~/Documents/hw dest=~/Documents/biometry/hw"
+ 1886  ls -a
+ 1888  ls -ls
+ 1889  sudo nano inventory
+ 1890  ansible -i inventory -m -copy -a "src=./calc dest=./biometry/calc"
+ 1891  ansible -i inventory -m copy -a "src=./calc dest=./biometry/calc"
+ 1892  ansible -i inventory -m copy -a "src=~/Documents/calc dest=./biometry/calc"
+ 1893  ansible -i inventory -m copy -a "src=~/Documents/calc dest=~/Documents/biometry/calc"
+ 1894  cat inventory
+ 1895  ansible -i inventory -m copy -a "src=./calc dest=./biometry/calc"\n
+ 1896  ansible -i inventory -m copy -a "src=~/Documents/hw dest=~/Documents/biometry/hhhhw"
+ 1897  mv inventory ./inventory1
+ 1898  ansible -i inventory1 -m copy -a "src=~/Documents/hw dest=~/Documents/biometry/hhhhw"
+ 1899  ansible loc -i inventory1 -m copy -a "src=~/Documents/hw dest=~/Documents/biometry/hhhhw"\n
+ 1900  sudo ansible loc -i inventory1 -m copy -a "src=~/Documents/hw dest=~/Documents/biometry/hhhhw"\n
+ 1901  ^V
+ 1902  ansible loc -i inventory1 -m copy -a "src=~/Documents/hw dest=~/Documents/biometry/hhhhw" -u your_username\n
+ 1904  history | grep ssh
+ 1905  history | grep ssh-keygen
+ 1906  history | grep "cd ~/.ssh"
+ 1907  cd ~/.ssh
+ 1908  cat ans1.pub >> ~/.ssh/authorized_keys\n
+ 1909  chmod 700 ~/.ssh\nchmod 600 ~/.ssh/authorized_keys\n
+ 1911  ansible loc -i inventory1 -m copy -a "src=~/Documents/hw dest=~/Documents/biometry/hhhhw" --private-key=path_to_ans1\n
+ 1912  ansible loc -i inventory1 -m copy -a "src=~/Documents/hw dest=~/Documents/biometry/hhhhw" --private-key=~/.ssh/ans1\n
+ 1914  cat inventory1
+ 1915  ansible-playbook -i inventory1 playbook.yml
+ 1916  ansible-playbook -i inventory1 playbook.yml --private-key=~/.ssh/ans1
+ 1917  nano playbook.yml
+ 1918  mkdir stepic_qa
+ 1919  cd stepic_qa
+ 1920  mkdir paramentrize_section
+ 1921  touch conftest.py
+ 1922  selenium
+ 1923  pip install selenium
+ 1924  find . -name "requirments.txt"
+ 1925  cp requirments.txt ../stepic_qa
+ 1926  cd ../stepic_qa
+ 1927  pip install -r requirments.txt
+ 1928  sudo apt-get install build-essential libssl-dev libffi-dev python3-dev\n
+ 1929  cd paramentrize_section
+ 1930  pip install -U pytest\n
+ 1931  pytest - s -v test_config.py
+ 1932  which python
+ 1933  which pytest
+ 1934  pytest -s -vvv test_config.py
+ 1935  pip list |grep selenium
+ 1936  sudo rm $(which chromedriver)\n
+ 1937  chromedriver --version
+ 1938  chrome --version
+ 1940  google-chrome --version\n
+ 1941  pytest -s -v test_config.py
+ 1942  cd selenium_env2
+ 1943  pytest -s -v xfail1.py
+ 1944  pytest -s -v test_fixture1.py
+ 1945  cd ../..
+ 1946  cd environments
+ 1947  cat automatization.code-workspace
+ 1948  history | grep lesson
+ 1949  history | grep lesson6_step4.py
+ 1950  find ~/Downloads test_fixture1.py
+ 1951  find ~/Downloads - name "test_fixture1.py"
+ 1952  find ~/Downloads -name "test_fixture1.py"
+ 1953  history
+ 1954  find ~/Downloads -name "test_*"
+ 1955  s
+ 1957  cd environments2
+ 1959  cd ../environments
+ 1960  echo $VIRTUAL_ENV
+ 1962  cat requirments.txt
+ 1963  cat requirments.txt | grep chrome
+ 1964  cat requirments.txt | grep driver
+ 1965  cat requirments.txt | grep python
+ 1966  echo $PATH | tr ':' '\n'\n
+ 1967  find / -name chromedriver
+ 1968  python lesson6_step4.py
+ 1969  which chromedriver
+ 1970  nano ~/.bashrc\n
+ 1971  source ~/.bashrc\n
+ 1972  sdv
+ 1973  l;akknfgvvnasdv;ak;s
+ 1976  node app.js
+ 1978  cd ~/Downloads
+ 1979  tar -xf node-v18.18.2-linux-x64.tar.xz\n
+ 1980  cd node-v18.18.2-linux-x64
+ 1981  sudo cp -R * /usr/local/\n
+ 1982  node -v\nnpm -v\n
+ 1983  npm install -g typescript
+ 1984  sudo npm install -g typescript
+ 1985  tsc --v
+ 1986  npm install -g ts-node
+ 1987  sudo npm install -g ts-node
+ 1990  sudo vscode
+ 1992  cd biometry
+ 1994  mkdir num
+ 1995  cd num
+ 1996  pip install jupiter
+ 1997  pip install jupyter
+ 1998  echo 'export PATH=$PATH:/home/kali/.local/bin' >> ~/.bashrc\nsource ~/.bashrc\n
+ 1999  vv
+ 2000  quit
+ 2001  docker --version\n
+ 2007  sudo docker run hello-world
+ 2009  sudo su
+ 2011  tcs app.ts
+ 2012  tsc app.ts
+ 2013  tsc --init
+ 2014  tsc 
+ 2016  pip uninstall numpy\npip install numpy\n
+ 2017  sudo pip uninstall numpy\npip install numpy\n
+ 2018  history | head
+ 2021  sudo docker ps
+ 2022  sudo docker ps -a
+ 2023  docker run postgres
+ 2024  docker p
+ 2025  sudo groupadd docker
+ 2026  sudo gpasswd -a kali docker
+ 2027  docker run hello-world
+ 2029  postgres 
+ 2030  history | grep postgre
+ 2031  sudo apt install postgresql postgresql-contrib
+ 2032  service postgresql status
+ 2033  service postgresql start
+ 2034  curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg
+ 2035  sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'\n
+ 2036  sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup\n
+ 2037  sudo nano /etc/apt/sources.list\n
+ 2038  sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/bullseye pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'\n
+ 2039  sudo apt install pgadmin4
+ 2040  lsb_release -cs
+ 2041  history 
+ 2043  lsof -i :5432\n
+ 2044  netstat -tuln | grep 5432\n
+ 2045  sudo cd database
+ 2046  ls -la
+ 2047  chmod 777 database
+ 2048  sudo chmod 777 database
+ 2049  cd database
+ 2050  ды
+ 2051  tree
+ 2052  history | grep 5432
+ 2053  netstat -tuln | grep 5432
+ 2054  \tdocker compose up -d postgres
+ 2055  sudo service postgresql start\n
+ 2056  /etc/postgresql/16/main/
+ 2057  nano postgresql.conf
+ 2058  sudo nano postgresql.conf
+ 2059  cd ~/Documents/CodeX/notes-api/notes.api
+ 2060  npm start
+ 2061  npm install -D vitest
+ 2062  npm install -D vitest\n
+ 2063  cd node_modules
+ 2064  find / -r -name vite.config.js 
+ 2065  find /  -name vite.config.js 
+ 2066  find .  -name vite.config.js 
+ 2067  ls | grep vite.config.js
+ 2068  npm create vite
+ 2069  history | grep docker
+ 2071  docker compose up
+ 2074  npm run migrate
+ 2075  npm run build
+ 2076  cd ~/Documents
+ 2077  mkdir OS
+ 2078  rm file.txt
+ 2079  cd os
+ 2080  cd OS
+ 2081  touch file.txt
+ 2082  pip install --upgrade numpy matplotlib\n
+ 2083  pip uninstall matplotlib\n
+ 2084  pip install matplotlib\n
+ 2085  apt install python3.11-venv\n
+ 2086  sudo apt install python3.11-venv\n
+ 2087  python -m venv myenv\nsource myenv/bin/activate  # On Windows, use: myenv\Scripts\activate\npip install matplotlib\npython your_script_name.py\n
+ 2088  python script.py
+ 2089  sldvm
+ 2090  cd ..
+ 2095  npm run build 
+ 2096  npm run start
+ 2097  psql
+ 2098  sudo -i -u postgres
+ 2099  npm run test
+ 2100  cd Documents
+ 2101  cd CodeX
+ 2102  cd notes-api
+ 2103  cd no
+ 2104  cd notes.api
+ 2105  yarn -v
+ 2106  yarn --version
+ 2107  sudo apt remove cmdtest\nsudo apt remove yarn\ncurl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -\necho "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list\nsudo apt-get update\nsudo apt-get install yarn -y
+ 2108  yarn install
+ 2109  docker compose do
+ 2110  docker compose down
+ 2111  docker compose up -d postgres\n
+ 2112  docker ps
+ 2113  history | tail
+ 2114  yarn start:dev
+ 2116  rm -rf dist
+ 2118  node -v
+ 2119  yarn dev
+ 2120  ls
+ 2121  history | grep pytest
